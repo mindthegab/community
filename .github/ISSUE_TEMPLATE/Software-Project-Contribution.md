@@ -122,9 +122,6 @@ The [FINOS Technical Oversight Committee](https://github.com/finos/technical-ove
 If needed, the TOC will request a follow up either via GitHub Issue comments or by inviting project leads to one of their recurrent meetings.
 
 Tasks (for FINOS Infra/TOC)
-- [ ] Prioritise this issue on the [TOC Backlog](https://github.com/orgs/finos/projects/39)
-- [ ] Assign this issue to @eddie-knight
-- [ ] Add the `ready-for-toc` label
 - [ ] TOC to invite contributors to present their project
 - [ ] FINOS TOC approves/rejects the contribution
 
@@ -139,9 +136,6 @@ Before the FINOS team can onboard your project, there are a few housekeeping ite
  - [ ] Review the [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to allow FINOS to act on behalf of the contributor for accounts related to the project (e.g., GitHub, domain names, social media) and to optionally manage trademark assignment
 - [ ] Review contribution checklist with FINOS staff
 - [ ] Review FINOS project blueprint
-
-## Logo / Trademarks
- - [ ] Request logo design from `help@finos.org` _(if needed)_
 
 # 4.  FINOS Onboarding
 
