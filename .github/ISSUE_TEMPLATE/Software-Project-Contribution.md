@@ -133,7 +133,10 @@ Tasks (for FINOS Infra/TOC)
 Before the FINOS team can onboard your project, there are a few housekeeping items that need to be taken care of.  These must be completed by the contributor, with help if required from the FINOS Infra.   
 
 ## Kick-off meeting
- - [ ] Review the [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to allow FINOS to act on behalf of the contributor for accounts related to the project (e.g., GitHub, domain names, social media) and to optionally manage trademark assignment
+- [ ] Review the [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to allow FINOS to act on behalf of the contributor for accounts related to the project (e.g., GitHub, domain names, social media) and to optionally manage trademark assignment.
+  - If the project name is new to FINOS and has not been used publicly by the contributor this agreement is not necessary.
+  - If the name is not new and has been used publicly in the past the contribution agreement must be signed even if no trademarks have been filled due to Common Law Trademark Rights.
+  - The above applies to any logos as well
 - [ ] Review contribution checklist with FINOS staff
 - [ ] Review FINOS project blueprint
 
