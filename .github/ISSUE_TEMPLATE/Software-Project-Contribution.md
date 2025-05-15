@@ -37,6 +37,7 @@ This is a list of questions that need to be answered by the contributor in order
 ## Existing Materials
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
+## Identify project meta
  - [ ] GitHub / GitLab Repository _(delete as appropriate)_
    - [ ] URL for the repository _(if it exists)_
    - [ ] Project Name _(enter here)_
