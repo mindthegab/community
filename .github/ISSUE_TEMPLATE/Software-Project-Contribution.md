@@ -102,7 +102,7 @@ As a project onboarding into FINOS, you will need to familiarize yourself and yo
  - [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
  - [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
 
-# Socialisation 
+## Socialisation 
 - [ ] Write and send contribution proposal announcement (optional - see below)
 - [ ] Lead maintainer to send out announcement to community@finos.org using this template:
     
