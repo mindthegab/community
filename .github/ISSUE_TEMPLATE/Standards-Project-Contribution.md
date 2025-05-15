@@ -40,7 +40,7 @@ This is a list of questions that need to be answered by the contributor in order
 ## Existing Materials
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repository, you should invite the finos-admin user with R/O permissions to those repositories*
 
- ## Identify project meta (Lead: FINOS Contrib POC, Support: FINOS Marketing)
+ ## Identify project meta
 - [ ] Project Name
     - [ ] Standard Name
     - [ ] Assess current trademark status
