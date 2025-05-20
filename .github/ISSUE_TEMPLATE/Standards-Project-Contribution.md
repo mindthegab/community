@@ -183,7 +183,8 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] (best effort or to be completed right after onboarding) Update release coordinates and code namespace to include `finos`
 - [ ] Communication channels are linked front and center in the project README.md
 
-# 5. Announcement 
+---
+# Announcement 
 - [ ] Issue assigned to FINOS DevRel team
 - [ ] Mantainer team agreed with FINOS DevRel team on announcements sequencing: `add link to internal task`
   - [ ] Technical announcement was sent to announce@finos.org (see [template](https://community.finos.org/docs/governance/Software-Projects/contribution#step-5-contribution-announcements): `add link to announce@ archive` 
