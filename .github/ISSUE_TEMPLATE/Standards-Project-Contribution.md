@@ -138,13 +138,13 @@ Instructions and a template for you to adjust are avaialble in the [Contribution
 - [ ] I confirm I have socialized this contribution to `community@finos.org` (to be checked after the issue is raised)
     
 ## 2. Approval
-The [FINOS Governing Board]([https://github.com/finos/technical-oversight-committee](https://www.finos.org/governing-board)) is responsible for approving FINOS project contributions.
+The [FINOS Governing Board]([https://github.com/finos/technical-oversight-committee](https://www.finos.org/governing-board)) is responsible for approving new FINOS standards.
 
 Once you are happy with the socialization phase (garnered enough support / interest, addressed open questions, etc), please check the box below and put a comment on this issue so it can be sent to the Governing Board for approval via email or at the next Governing Board meeting . 
 
 - [ ] I am happy for this issue to be sent to the Governing Board for formal review and approval
-- [ ] FINOS team notified leadership@finos.org to trigger Governing Board approval and assigned this issue to COO
-- [ ] FINOS Leadership confirmed timing and procedure of Governing Board vote
+- [ ] FINOS Infra team notifies leadership@finos.org to trigger Governing Board approval and assigned this issue to COO
+- [ ] FINOS Leadership confirmed timing and procedure of Governing Board vote with contributors 
 
 ### Governing Board Approval findings 
 - [ ] FINOS Governing Board reviewed the contribution and the contribution was: `accepted|rejected`
@@ -157,7 +157,7 @@ Before the FINOS team can onboard your project, there are a few housekeeping ite
 ### Steps
 - [ ] Usable name and logo identified (either existing or new)
   - [ ] FINOS team confirmed project brand and logo are usable in the public domain. This might require completion of [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to properly assign trademarks.
-  - [ ] Failed the above, new project name and logo is being identified
+  - [ ] Failed the above, new project name and logo is identified
 - [ ] FINOS team enables [EasyCLA](https://easycla.lfx.linuxfoundation.org/#/) with Community Specification License
 - [ ] FINOS contributor license agreement is reviewed and executed by all maintainers
 - [ ] FINOS team was given admin access to any existing project account (e.g. GitHub, domain names, social media) to be able to act on behalf of the contributor for accounts related to the project  
@@ -165,6 +165,8 @@ Before the FINOS team can onboard your project, there are a few housekeeping ite
    - [ ] Review contribution checklist with FINOS staff
    - [ ] Contributor confirms having reviewed [FINOS standard project procedures](/docs/governance/Standards-Projects)) and agreed to adopt governance
    - [ ] FINOS agrees with maintainers on category and sub-category (for [FINOS Landscape](https://landscape.finos.org/))
+   - [ ] Update Project badge
+
 
 ## 4.  Transfer and onboarding in FINOS
 This is performed by FINOS Infra once the three previous stages are complete, with support from the contributor and the FINOS Infra team.
@@ -179,6 +181,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] Enable [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) (`Require a pull request before merging`)
 - [ ] Enable automated dependency update, using [Renovate](https://renovatebot.com/)
 - [ ] (best effort or to be completed right after onboarding) Update release coordinates and code namespace to include `finos`
+- [ ] Communication channels are linked front and center in the project README.md
 
 # 5. Announcement 
 - [ ] Issue assigned to FINOS DevRel team
