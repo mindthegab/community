@@ -34,10 +34,11 @@ As a project onboarding into FINOS, you should familiarize yourself and your con
 
 This section contains information to be provided by the contributor to give it the best chances to be approve stage. They largely mirror the requirements described in the [incubation checklist](/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist). Please fill below as appropriate:
 
-### Proposed Project Name
-`enter here top three preferred options`
+### Proposed Project Metadata
+- Name: `enter here proposed project name`
+- Slug: `enter here proposed project description`
 
-> While, in case of project acceptance, a trademark search will be perfomed, it's recommended for the project team to provide at least 3 options which don't obviously clash with existing trademarks or open source project names
+> Please review the [trademark checks](docs/governance/Software-Projects/contribution#trademark) that will be performed on the projects.
 
 ### Business Problem
 > Describe the business or technical problem the contribution solves and for whom
@@ -66,6 +67,7 @@ This section contains information to be provided by the contributor to give it t
  - [ ] Does the project have a registered trademark or the name has been prevously used in the public domain?
    - If so, add link to previously used public links : `link to press release / repository / blog`
  - [ ] Is there an existing logo?
+   - If so, please add link or attach to the issue: `link to high res logo or added as attachment`
  - [ ] Is there a high-level pitch deck to be evaluated by Technical Oversight Committee?
    - If so, please add link or attach to the issue: `link to a ~15 mins slide deck or added as attachment`
  - [ ] Are meetings currently held for the project?
@@ -132,7 +134,7 @@ The [FINOS Technical Oversight Committee](https://github.com/finos/technical-ove
 Once you are happy with the socialization phase (garnered enough support / interest, addressed open questions, etc), please check the box below and put a comment on this issue so it can be sent to the TOC for approval. 
 
 - [ ] I am happy for this issue to be sent to the Technical Oversight Committee for formal review and approval
-- [ ] FINOS team added this to FINOS TOC for review
+- [ ] FINOS team added this to FINOS TOC Backlog and assigned TOC Chair for review
 
 ### TOC Approval findings 
 - [ ] FINOS TOC reviewed the contribution and the contribution was: `accepted|rejected`
@@ -143,12 +145,16 @@ Once you are happy with the socialization phase (garnered enough support / inter
 Before the FINOS team can onboard your project, there are a few housekeeping items that need to be taken care of from an IP and infastructure standpoint. These must be completed by the contributor, with help if required from the FINOS Infrastructure team, so please familiarize yourself with the [requirements](/docs/governance/software-projects/contribution/#step-4-ip-review--transfer-of-contributions).
 
 ### Steps
-- [ ] FINOS team confirmed project brand and logo, if existing, are usable in the public domain. This might require completion of [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to properly assign trademarks or identify a new project name and logo.
+- [ ] Usable name and logo identified
+  - [ ] FINOS team confirmed project brand and logo are usable in the public domain. This might require completion of [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to properly assign trademarks.
+  - [ ] Failed the above, new project name and logo is being identified
+- [ ] FINOS team enables [EasyCLA](https://easycla.lfx.linuxfoundation.org/#/) with FINOS CLA
 - [ ] FINOS contributor license agreement is reviewed and executed by all maintainers
-- [ ] FINOS team was give admin access to any existing project account (e.g. GitHub, domain names, social media) to be able to act on behalf of the contributor for accounts related to the project  
+- [ ] FINOS team was given admin access to any existing project account (e.g. GitHub, domain names, social media) to be able to act on behalf of the contributor for accounts related to the project  
 - [ ] Kick-off meeting organized by FINOS team, including:
    - [ ] Review contribution checklist with FINOS staff
-   - [ ] Review FINOS project blueprint
+   - [ ] Contributor reviewed [FINOS software project blueprint](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md) and agreed to adopt governance
+   - [ ] FINOS agrees with maintainers on category and sub-category (for [FINOS Landscape](https://landscape.finos.org/))
 
 ## 4.  Transfer and onboarding in FINOS
 
@@ -160,14 +166,13 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 ## Code Transfer Meeting
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
 - [ ] Rename main branch to `main` (instead of `master`)
-- [ ] Enable EasyCLA
 - [ ] Check that CVE (and preferably static code analysis, if applicable) scanning is in place
 - [ ] Enable [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) (`Require a pull request before merging`)
 - [ ] Enable automated dependency update, using [Renovate](https://renovatebot.com/)
-- [ ] (best effort) Update release coordinates and code namespace to include `finos`
+- [ ] (best effort or to be completed right after onboarding) Update release coordinates and code namespace to include `finos`
 
 # 5. Announcement 
 - [ ] Issue assigned to FINOS DevRel team
 - [ ] Mantainer team agreed with FINOS DevRel team on announcements sequencing: `add link to internal task`
-- [ ] Technical announcement was sent to announce@finos.org (see [template](https://community.finos.org/docs/governance/Software-Projects/contribution#step-5-contribution-announcements): `add link to announce@ archive` 
-- [ ] If applicable, project was announced on FINOS marketing channels: `add link to FINOS social / press release`
+  - [ ] Technical announcement was sent to announce@finos.org (see [template](https://community.finos.org/docs/governance/Software-Projects/contribution#step-5-contribution-announcements): `add link to announce@ archive` 
+  - [ ] If applicable, project was announced on FINOS marketing channels: `add link to FINOS social / press release`
