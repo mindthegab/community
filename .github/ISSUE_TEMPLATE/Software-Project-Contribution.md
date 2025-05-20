@@ -1,65 +1,84 @@
 ---
 name: "\U0001F58ASoftware Project Contribution and Onboarding"
 about: To Contribute a Software Project to FINOS
-title: Software Project Contribution and Onboarding
+title: "[insert name here] Software Project Contribution and Onboarding"
 labels: contribution
+assignees: maoo, TheJuanAndOnly99
+---
 
 ---
-Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
+# Prerequisites
 
+## Membership requirement to contribute new projects
 
-# Onboarding Process
+Please note that only FINOS members can propose new projects. If you're interested in membership, see [here](https://www.finos.org/membership-benefits#become-a-member). You can still submit this contribution if your organization is not a [FINOS member](https://finos.org/members), but you will be required to have a maintainer from a FINOS member.
 
-Completing an onboarding of a project into FINOS requires following these 5 main steps:  
+- [ ] I confirm I am contributing on behalf of a FINOS member (`add FINOS member organization name`) or I will seek a maintainer from a FINOS member during socialization 
 
-1.  [**Describing the Contribution**](#1-describing-the-contribution) _led by contributor_
-2.  [**Approval**](#2-approval) _led by FINOS TOC_
-3.  [**Preparing for Onboarding**](#3-preparing-for-onboarding) _led by contributor_
-4.  [**Onboarding**](#4--finos-onboarding) _completed by FINOS Infra_
-5.  [**Announcement**](#4--finos-onboarding) _led by FINOS Marketing_
+## Understading the contribution Process
 
-# 1. Describing The Contribution
+Completing an onboarding of a project into FINOS comprises following 5 main steps described in details in our [Community Repository](https://community.finos.org/docs/governance/Software-Projects/contribution#contribution-of-an-existing-code-base-into-finos-as-a-new-project). 
 
-This is a list of questions that need to be answered by the contributor in order to allow a new project to pass to the approval stage of onboarding.
+ - [ ] I confirm I have reviewed the contribution process.
 
-## Business Problem
-*Describe the business problem the contribution solves*
+## Understanding FINOS
+
+As a project onboarding into FINOS, you should familiarize yourself and your contributor team with the following FINOS information: [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf), [FINOS Software Projects Governance](/docs/governance/#open-source-software-projects), [FINOS Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle), [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/).
+
+- [ ] I confirm I am familiar with the FINOS governance and maintainers responsibilities
+
+---
+# Contribution information
+
+## Describing The Contribution
+
+This section contains information to be provided by the contributor to give it the best chances to be approve stage. They largely mirror the requirements described in the [incubation checklist](/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist). Please fill below as appropriate:
+
+### Proposed Project Name
+`enter here top three preferred options`
+
+> While, in case of project acceptance, a trademark search will be perfomed, it's recommended for the project team to provide at least 3 options which don't obviously clash with existing trademarks or open source project names
+
+### Business Problem
+> Describe the business or technical problem the contribution solves and for whom
  
-## Proposed Solution
-*Describe the type of contribution (project or working group) and how it solves that business problem*
+### Proposed Solution
+> Describe how this software project solves that business problem
 
-## Tentative Roadmap
-*Describe the short and medium term goals and phases of the project. What does success look like for this project?* 
+### Tentative Roadmap
+> Describe the short and medium term goals and phases of the project. What does success look like for this project?
  
-## Current State
-*Summarize the history and current state of the project*
+### Current State
+> Summarize the history and current state of the project
  
-## Existing Materials
-*If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
-
-## Identify project meta
- - [ ] GitHub / GitLab Repository _(delete as appropriate)_
-   - [ ] URL for the repository _(if it exists)_
-   - [ ] Project Name _(enter here)_
-   - [ ] @finos-admin has been given read-only permissions if private
- - [ ] Is Continuous Integration used? _If so, which system is used?_
- - [ ] Was the project ever released? _(yes / no)_ 
-   - [ ] If so, are releases public? _(yes / no)_ 
-   - [ ] And what's the latest released version?
- - [ ] Existing Project Documentation _( URL / microsite / PDF etc detail here)_
- - [ ] Does the name have a registered trademark? _(yes / no)_
- - [ ] Is there a logo? _(yes / no)_
- - [ ] High-Level Presentation prepared for Technical Oversight Committee _(~15 mins)_
- - [ ] Are meetings currently held for the project? _(yes / no + details)_
- - [ ] Are meeting minutes, agenda and attendance tracked? _(yes / no + details)_
- - [ ] Is it a data model? Interested in [FINOS Legend Studio Sandbox](https://www.finos.org/legend)?
+### Identify existing project resources and materials
+ - [ ] Does the project have a public Source Repository?
+   - If so, what's the URL for the repository: `replace if it exists or add N/A`
+   - [ ] If code is private, was @finos-admin already given read-only permissions to the repo or a code provided to the team?
+ - [ ] Is Continuous Integration used?
+   - If so, which CI/CD system is used: `enter here`
+ - [ ] Was the project ever had public releases? 
+   - If so, where's the latest released version: `add link here`
+ - [ ] Does the project build work successfully?
+   - If so, please add link to build instructions: `add link to build instructions`
+ - [ ] Does the project have existing documentation?
+   - If so, provide more information: `add site URL / PDF / etc here`
+ - [ ] Does the project have a registered trademark or the name has been prevously used in the public domain?
+   - If so, add link to previously used public links : `link to press release / repository / blog`
+ - [ ] Is there an existing logo?
+ - [ ] Is there a high-level pitch deck to be evaluated by Technical Oversight Committee?
+   - If so, please add link or attach to the issue: `link to a ~15 mins slide deck or added as attachment`
+ - [ ] Are meetings currently held for the project?
+   - If so, please add link to current meeting schedule / minutes: `link to meeting details`
+ - [ ] Is it a data model?
+   - [ ] If so, are you interested in modeling it in the [FINOS Legend Studio Sandbox](https://www.finos.org/legend)?
 
 ## Development Team
 
 ### Maintainers
-*Who will be the [project maintainer(s)](https://community.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub / GitLab username.*
+*Who will be the Project Maintainers who are responsible for maintaining the project and engaging with the community per [maintainer's responsibilities](https://community.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, GitHub / GitLab username and email address where available*
 
-|Name                        |Affiliation              |Work Email Address             |Github / GitLab username              |
+|Name                        |Affiliation              | Email Address             |Github / GitLab username              |
 |----------------------------|-------------------------|-------------------------------|--------------------------------------|
 |John Example                |Example LTD              |john@example.com               |@johnexampleabc                       |
 |Jane Example                |Example LTD              |jane@example.com               |@janeexamplexyz                       |
@@ -75,78 +94,68 @@ This is a list of questions that need to be answered by the contributor in order
 
 
 ### Target Contributors
-*Describe the contributor profile (background, position, organization) you would like to get contributions from.*
+*Describe the contributor profile (background, position, etc) and if applicable organizational profile (financial institutions, tech vendors, consulting firms, etc) you would like to get contributions from*
 
-## Project Communication Channel(s)
+## Preferred project infrastructure
+If the project is approved, FINOS will provision the infrastructure necessary for [development, release and project collaboration](https://community.finos.org/docs/collaboration-infrastructure). Below a list of questions which will help us accelerate the onboarding process and tailor it to the maintainers needs:
 
-- [ ] Contributor to ask maintainers which communications channels they'd like to use:
-- Asynchronous
-  - [ ] GitHub Issues _(public)_
-  - [ ] GitHub Discussions _(public)_
+- Which code hosting platform does the project prefer? *[Github](https://github.com/finos/)|[GitLab](https://gitlab.com/finos)* 
+- Please check below which asynchronous collaboration channels will the project like to use?
+  - [ ] GitHub Issues
+  - [ ] GitHub Public Discussions
   - [ ] GitHub Team Discussions _(consisting of the above described contributors)_
-    - [ ] Public
-    - [ ] Private
-  - [ ] Mailing-list (groups.io)
-  - [ ] FINOS Slack Channel (consisting of the above described contributors)
-    - [ ] General (public) _(supply channel name)_ 
-    - [ ] Leadership (private) _(supply channel name)_
+    - Public (Mandatory) _(consisting of the above described contributors)_
+    - [ ] Private (Optional)
+  - [ ] Mailing-list (lists.finos.org)
+    - General (Mandatory, for project community): `add preferred address, XXXX-general@lists.finos.org`
+    - [ ] Private (Optional)
+  - [ ] FINOS Slack Channel _(consisting of the above described contributors)_
+    - General Project Community Public channel (mandatory): `add preferred channel name, e.g. #projectName-general`
+    - [ ] Maintainers Private Channel (Optional) `add preferred channel name, e.g. #projectName-maintainers`
 - Synchronous
-  - [ ] Recurring meetings
+  - [ ] Will the project host recurring meetings complying with the [FINOS meeting procedures](https://community.finos.org/docs/governance/meeting-procedures)?
 
-## Understanding FINOS Onboarding Requirements
+---
+# Next steps and what to expect 
 
-As a project onboarding into FINOS, you will need to familiarize yourself and your contributor team with the following materials:
+## 1. Socialisation 
+It's highly recommended that once you submit this issue, you or anyone in the maintainer team proceed with socializing directly to the [FINOS community](mailto:community@finos.org) and through your personal network. The goal is to generate interest, support and ideally additional committed maintainers expressing the interest on the issue before it's sent to the Technical Oversight Committee for approval. 
 
- - [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
- - [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
- - [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
- - [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
+Instructions and a template for you to adjust are avaialble in the [Contribution Process Socialization](https://community.finos.org/docs/governance/software-projects/contribution/#step-2-socialization) documentation.
 
-## Socialisation 
-- [ ] Write and send contribution proposal announcement (optional - see below)
-- [ ] Lead maintainer to send out announcement to community@finos.org using this template:
+- [ ] I confirm I have socialized this contribution to `community@finos.org` (to be checked after the issue is raised)
     
-    ```
-    Dear FINOS Community, 
-    
-    We would like to propose a new FINOS project. Please review the proposal details at (_TODO: add link to the GitHub issue proposal_).
-    
-    If you're interested in participating, please :+1: the GitHub issue proposal and drop a comment with your name, org and email
+## 2. Approval
 
-   Thanks a lot,
-   ```     
+The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) (TOC) is responsible for approving FINOS project contributions into Incubating stage according to the [contribution principles](https://github.com/finos/technical-oversight-committee/blob/master/contribution-principles.md) and the [incubation checklist](/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist).
 
-# 2. Approval
+Once you are happy with the socialization phase (garnered enough support / interest, addressed open questions, etc), please check the box below and put a comment on this issue so it can be sent to the TOC for approval. 
 
-The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) (TOC) is responsible for approving FINOS project contributions; feel free to check their [contribution principles](https://github.com/finos/technical-oversight-committee/blob/master/contribution-principles.md).
+- [ ] I am happy for this issue to be sent to the Technical Oversight Committee for formal review and approval
+- [ ] FINOS team added this to FINOS TOC for review
 
-If needed, the TOC will request a follow up either via GitHub Issue comments or by inviting project leads to one of their recurrent meetings.
+### TOC Approval findings 
+- [ ] FINOS TOC reviewed the contribution and the contribution was: `accepted|rejected`
 
-Tasks (for FINOS Infra/TOC)
-- [ ] TOC to invite contributors to present their project
-- [ ] FINOS TOC approves/rejects the contribution
+> TOC to enter high level findings summary here supporting the decision
 
-## TOC Findings / Report
-*TOC to enter findings summary here.*
+## 3. Preparing For Onboarding
+Before the FINOS team can onboard your project, there are a few housekeeping items that need to be taken care of from an IP and infastructure standpoint. These must be completed by the contributor, with help if required from the FINOS Infrastructure team, so please familiarize yourself with the [requirements](/docs/governance/software-projects/contribution/#step-4-ip-review--transfer-of-contributions).
 
-# 3. Preparing For Onboarding
+### Steps
+- [ ] FINOS team confirmed project brand and logo, if existing, are usable in the public domain. This might require completion of [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to properly assign trademarks or identify a new project name and logo.
+- [ ] FINOS contributor license agreement is reviewed and executed by all maintainers
+- [ ] FINOS team was give admin access to any existing project account (e.g. GitHub, domain names, social media) to be able to act on behalf of the contributor for accounts related to the project  
+- [ ] Kick-off meeting organized by FINOS team, including:
+   - [ ] Review contribution checklist with FINOS staff
+   - [ ] Review FINOS project blueprint
 
-Before the FINOS team can onboard your project, there are a few housekeeping items that need to be taken care of.  These must be completed by the contributor, with help if required from the FINOS Infra.   
-
-## Kick-off meeting
-- [ ] Review the [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to allow FINOS to act on behalf of the contributor for accounts related to the project (e.g., GitHub, domain names, social media) and to optionally manage trademark assignment.
-  - If the project name is new to FINOS and has not been used publicly by the contributor this agreement is not necessary.
-  - If the name is not new and has been used publicly in the past the contribution agreement must be signed even if no trademarks have been filled due to Common Law Trademark Rights.
-  - The above applies to any logos as well
-- [ ] Review contribution checklist with FINOS staff
-- [ ] Review FINOS project blueprint
-
-# 4.  FINOS Onboarding
+## 4.  Transfer and onboarding in FINOS
 
 This is performed by FINOS Infra once the three previous stages are complete, with support from the contributor and the FINOS Infra team.
 
 ## Code transfer preparation
-- [ ] Ensure [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
+- [ ] Maintainer has made [finos-admin](http://github.com/finos-admin) Admin of the GitHub repository to transfer
 
 ## Code Transfer Meeting
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
@@ -158,4 +167,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] (best effort) Update release coordinates and code namespace to include `finos`
 
 # 5. Announcement 
-- [ ] Lead maintainer works with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution#step-5-contribution-announcements)
+- [ ] Issue assigned to FINOS DevRel team
+- [ ] Mantainer team agreed with FINOS DevRel team on announcements sequencing: `add link to internal task`
+- [ ] Technical announcement was sent to announce@finos.org (see [template](https://community.finos.org/docs/governance/Software-Projects/contribution#step-5-contribution-announcements): `add link to announce@ archive` 
+- [ ] If applicable, project was announced on FINOS marketing channels: `add link to FINOS social / press release`
