@@ -38,7 +38,7 @@ This section contains information to be provided by the contributor to give it t
 - Name: `enter here proposed project name`
 - Slug: `enter here proposed project description`
 
-> Please review the [trademark checks](docs/governance/Software-Projects/contribution#trademark) that will be performed on the projects.
+> Please review the [trademark checks](/docs/governance/Software-Projects/contribution#trademark) that will be performed on the projects.
 
 ### Business Problem
 > Describe the business or technical problem the contribution solves and for whom
