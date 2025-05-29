@@ -55,7 +55,7 @@ This section contains information to be provided by the contributor to give it t
 ### Identify existing project resources and materials
  - [ ] Does the project have a public Source Repository?
    - If so, what's the URL for the repository: `replace if it exists or add N/A`
-   - [ ] If code is private, was @finos-admin already given read-only permissions to the repo or a code provided to the team?
+   - [ ] If code is private, was @finos-admin already given read-only permissions to the repo or has code been provided to the team?
  - [ ] Is Continuous Integration used?
    - If so, which CI/CD system is used: `enter here`
  - [ ] Was the project ever had public releases? 
