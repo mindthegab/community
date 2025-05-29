@@ -64,7 +64,7 @@ This section contains information to be provided by the contributor to give it t
    - If so, please add link to build instructions: `add link to build instructions`
  - [ ] Does the project have existing documentation?
    - If so, provide more information: `add site URL / PDF / etc here`
- - [ ] Does the project have a registered trademark or the name has been prevously used in the public domain?
+ - [ ] Does the project have a registered trademark or has the name previously been used in the public domain?
    - If so, add link to previously used public links : `link to press release / repository / blog`
  - [ ] Is there an existing logo?
    - If so, please add link or attach to the issue: `link to high res logo or added as attachment`
