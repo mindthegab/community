@@ -32,7 +32,7 @@ As a project onboarding into FINOS, you should familiarize yourself and your con
 
 ## Describing The Contribution
 
-This section contains information to be provided by the original to give it the best chances to be approve stage. They largely mirror the requirements described in the [incubation checklist](/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist). Please fill below as appropriate:
+This section contains information to be provided by the original to give it the best chances to be approved. They largely mirror the requirements described in the [incubation checklist](/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist). Please fill below as appropriate:
 
 ### Proposed Project Metadata
 - Name: `enter here proposed standard name`
