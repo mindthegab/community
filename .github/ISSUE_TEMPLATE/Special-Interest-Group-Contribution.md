@@ -30,7 +30,7 @@ As a SIG onboarding into FINOS, you should familiarize yourself and your contrib
 
 ## Describing The Contribution
 
-This section contains information to be provided by the contributor to give it the best chances to be approve stage. A SIG is a great place to have conversation around a certain area of interest, generally in the "problem space" to then proceed to create or contribute a software or standard project to provide a solition. Please review a list of [existing SIGs](https://community.finos.org/docs/governance/special-interest-groups/) before proposing one as you might find your area of interest already covered. 
+This section contains information to be provided by the contributor to give it the best chances to be approved. A SIG is a great place to have conversation around a certain area of interest, generally in the "problem space" to then proceed to create or contribute a software or standard project to provide a solition. Please review a list of [existing SIGs](https://community.finos.org/docs/governance/special-interest-groups/) before proposing one as you might find your area of interest already covered. 
 
 Please fill below as appropriate:
 
