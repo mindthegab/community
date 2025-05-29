@@ -61,7 +61,7 @@ This section contains information to be provided by the original to give it the 
    - [ ] If code is private, was @finos-admin already given read-only permissions to the repo or a code provided to the team?
  - [ ] Is Continuous Integration used?
    - If so, which CI/CD system is used: `enter here`
- - [ ] Was the project ever had public releases? 
+ - [ ] Has the project ever done public releases? 
    - If so, where's the latest released version: `add link here`
  - [ ] Does the project build work successfully?
    - If so, please add link to build instructions: `add link to build instructions`
