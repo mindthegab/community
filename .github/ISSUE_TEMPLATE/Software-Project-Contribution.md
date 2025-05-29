@@ -102,7 +102,7 @@ This section contains information to be provided by the contributor to give it t
 If the project is approved, FINOS will provision the infrastructure necessary for [development, release and project collaboration](https://community.finos.org/docs/collaboration-infrastructure). Below a list of questions which will help us accelerate the onboarding process and tailor it to the maintainers needs:
 
 - Which code hosting platform does the project prefer? *[Github](https://github.com/finos/)|[GitLab](https://gitlab.com/finos)* 
-- Please check below which asynchronous collaboration channels will the project like to use?
+- Please check below which asynchronous collaboration channels the project would like to use:
   - [ ] GitHub Issues
   - [ ] GitHub Public Discussions
   - [ ] GitHub Team Discussions _(consisting of the above described contributors)_
