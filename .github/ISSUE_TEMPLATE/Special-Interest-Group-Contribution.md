@@ -145,7 +145,6 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] Enable automated dependency update, using [Renovate](https://renovatebot.com/)
 - [ ] (best effort or to be completed right after onboarding) Update release coordinates and code namespace to include `finos`
 - [ ] Communication channels are linked front and center in the project README.md
-- [ ] Communication channels are linked front and center in the project README.md
 - [ ] SIG badge is updated
 - [ ] SIG is listed in [FINOS SIGs listing page](/docs/governance/special-interest-
 
