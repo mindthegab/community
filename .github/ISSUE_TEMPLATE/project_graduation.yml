@@ -1,0 +1,320 @@
+name: "📺 Project Graduation"
+description: To Graduate a FINOS hosted Project
+title: "Project Graduation"
+assignees:
+  - maoo
+  - TheJuanAndOnly99
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Graduation
+        Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Graduated status](https://community.finos.org/docs/governance/Software-Projects/maturity/graduated) and the related badge. A Graduated badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
+
+        The [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://community.finos.org/docs/governance/#project-lifecycle).
+
+        ### What does graduation mean for the consumer?
+        ✅ The Project is high quality, mature from a codebase and community dynamics perspective.
+
+        🎯 The Project produces valuable releases to solve a useful business problem for our Community.
+
+        ### What does graduation mean for the project team?
+        ⭐ Glory in the Community
+
+        👀 📢 Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## QUALITY & SECURITY
+
+  - type: checkboxes
+    id: development_process
+    attributes:
+      label: Development Process
+      description: The Project adopts best-of-breed standards of distributed software development
+      options:
+        - label: Semantic versioning is used
+        - label: Tagging / branch protection is implemented
+        - label: Continuous integration (CI) is enabled
+        - label: Continuous delivery (CD) is enabled (where applicable)
+
+  - type: textarea
+    id: development_process_evidence
+    attributes:
+      label: Development Process - Evidence
+      description: How and where is the development process demonstrated? (e.g., links to CI/CD pipelines, versioning documentation, etc.)
+      placeholder: Provide links and evidence of development process implementation...
+      render: markdown
+
+  - type: checkboxes
+    id: build_release
+    attributes:
+      label: Build & Release
+      description: The Project code/documentation release process
+      options:
+        - label: Release process is automated
+        - label: Release process is well documented
+        - label: Publicly redistributed release binaries are listed/referred to in documentation
+        - label: Release binaries are published under FINOS namespace (e.g., NPM, Maven Central, etc.)
+
+  - type: textarea
+    id: build_release_evidence
+    attributes:
+      label: Build & Release - Evidence
+      description: How and where is the build & release process demonstrated? (e.g., links to artifact repositories, release documentation, etc.)
+      placeholder: Provide links to artifact repositories, release documentation, etc...
+      render: markdown
+
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Security
+      description: Security requirements and practices
+      options:
+        - label: Project has an [OpenSSF "Passing" badge](https://bestpractices.coreinfrastructure.org/en)
+        - label: Maintainers are familiar with [FINOS Security vulnerabilities responsible disclosure](https://community.finos.org/docs/governance/Software-Projects/Security-Vulnerabilities-Responsible-Disclosure-Policy)
+        - label: Automated security scanning tool is enabled (e.g., FINOS Security Scanning or WhiteSource)
+
+  - type: textarea
+    id: security_evidence
+    attributes:
+      label: Security - Evidence
+      description: Provide links to OpenSSF badge, security scanning tools, security documentation, etc.
+      placeholder: Provide links to security badges, scanning tools, documentation...
+      render: markdown
+
+  - type: checkboxes
+    id: documentation
+    attributes:
+      label: Documentation
+      description: The README.md must include or reference up to date documentation
+      options:
+        - label: End user docs (description, feature overview, installation & configuration)
+        - label: Developer docs (links to external systems, CI & validation tools, artifact repository, changelog)
+        - label: Badges are included (e.g., from shields.io)
+        - label: Sample code explaining how to use the project/library/SDK
+
+  - type: textarea
+    id: documentation_evidence
+    attributes:
+      label: Documentation - Evidence
+      description: Provide links to documentation, README, sample code, etc.
+      placeholder: Provide links to documentation...
+      render: markdown
+
+  - type: markdown
+    attributes:
+      value: |
+        ## DIVERSITY & VIABILITY
+
+  - type: textarea
+    id: community
+    attributes:
+      label: Community
+      description: Project has active participation from 2+ independent individuals and/or organizations. Ideally Project Team members who make contributions in connection with their employment are doing so as part of their regular job duties.
+      placeholder: List the independent individuals/organizations participating in the project...
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: project_team
+    attributes:
+      label: Project Team
+      description: Project Team has/have demonstrated active involvement commitment to the open source project
+      placeholder: Describe the project team's active involvement and commitment...
+      render: markdown
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License
+      description: License compliance requirements
+      options:
+        - label: Project must not have dependencies which effectively restrict how the project may be distributed or deployed
+        - label: Project must not depend on any proprietary third-party components for their core functionality
+
+  - type: textarea
+    id: license_details
+    attributes:
+      label: License Details
+      description: Provide details about license compliance and any relevant information
+      placeholder: Describe license compliance status...
+      render: markdown
+
+  - type: checkboxes
+    id: trademark
+    attributes:
+      label: Trademark
+      description: Trademark requirements
+      options:
+        - label: Community is using a different established Project name OR original contribution trademark is owned by FINOS
+        - label: All Project related websites and assets are owned and hosted by FINOS
+
+  - type: textarea
+    id: trademark_details
+    attributes:
+      label: Trademark Details
+      description: Provide details about trademark ownership and asset hosting
+      placeholder: Describe trademark status and asset ownership...
+      render: markdown
+
+  - type: markdown
+    attributes:
+      value: |
+        ## ROADMAP & RESOURCES
+
+  - type: textarea
+    id: progress
+    attributes:
+      label: Progress
+      description: Project has progressed against its public roadmap during incubation
+      placeholder: Describe progress made against the public roadmap...
+      render: markdown
+    validations:
+      required: true
+
+  - type: input
+    id: roadmap_url
+    attributes:
+      label: Public Roadmap URL
+      description: Link to the public roadmap
+      placeholder: https://github.com/finos/project/issues/...
+
+  - type: checkboxes
+    id: versioning
+    attributes:
+      label: Versioning
+      description: Versioning requirements
+      options:
+        - label: Project software is production grade and ready for large scale consumption
+        - label: 1.0.0 version was released
+        - label: 1.0.0 version was announced to the announce@ mailing list
+
+  - type: input
+    id: latest_version
+    attributes:
+      label: Latest Released Version
+      description: What is the latest released version?
+      placeholder: e.g., 1.0.0
+
+  - type: input
+    id: announcement_link
+    attributes:
+      label: 1.0.0 Announcement Link
+      description: Link to the announcement email/thread on announce@ mailing list
+      placeholder: Link to announcement...
+
+  - type: textarea
+    id: finos_support
+    attributes:
+      label: FINOS Support
+      description: Project Team is largely self-sufficient, requiring minimal operational support from FINOS to govern and maintain the project. FINOS support switches to strategic growth of the Project in the Community.
+      placeholder: Describe the project team's self-sufficiency and how FINOS support has transitioned...
+      render: markdown
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## GROWTH & ADOPTION
+
+  - type: textarea
+    id: usefulness
+    attributes:
+      label: Usefulness
+      description: The Project demonstrably solves a real life use case in the Community. Evidence of adoption beyond the contributing individuals or firms (e.g., in the form of download statistics, listing known deployments or implementations, etc.)
+      placeholder: Describe the real-life use case and provide evidence of adoption (download stats, deployments, implementations, etc.)...
+      render: markdown
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: status_badging
+    attributes:
+      label: Status Badging
+      description: Project Team commits to adopt the FINOS Graduated badge
+      options:
+        - label: Project Team commits to adopt the FINOS Graduated badge in the README.md once the FINOS team approves activation
+
+  - type: markdown
+    attributes:
+      value: |
+        ## HYGIENE & OPERATIONS
+
+  - type: checkboxes
+    id: compliance
+    attributes:
+      label: Compliance
+      description: License compliance in source files
+      options:
+        - label: The appropriate license text is included in each source file's header
+
+  - type: textarea
+    id: compliance_details
+    attributes:
+      label: Compliance Details
+      description: Provide details about license header compliance (see [details and template](https://community.finos.org/docs/governance/Software-Projects/Contribution-Compliance-Requirements))
+      placeholder: Describe license header compliance status...
+      render: markdown
+
+  - type: checkboxes
+    id: community_inquiries
+    attributes:
+      label: Community Inquiries
+      description: Community engagement and responsiveness
+      options:
+        - label: Community inquiries on the project channels (mailing lists, issues and pull requests, etc) are generally promptly answered
+
+  - type: textarea
+    id: community_inquiries_evidence
+    attributes:
+      label: Community Inquiries - Evidence
+      description: Provide examples or metrics showing prompt response to community inquiries
+      placeholder: Provide examples or metrics...
+      render: markdown
+
+  - type: checkboxes
+    id: meeting_hygiene
+    attributes:
+      label: Meeting Hygiene
+      description: If the project meets regularly on-line
+      options:
+        - label: Project meets regularly on-line
+        - label: Project Team has demonstrated a track record of publishing and distributing agenda no less than 24 hours before the meeting
+        - label: Project Team publishes meeting minutes after calls
+
+  - type: textarea
+    id: meeting_hygiene_evidence
+    attributes:
+      label: Meeting Hygiene - Evidence
+      description: Provide links to meeting agendas, minutes, or other evidence of meeting hygiene
+      placeholder: Provide links to meeting agendas, minutes, etc...
+      render: markdown
+
+  - type: checkboxes
+    id: transparency
+    attributes:
+      label: Transparency
+      description: Project Team has adopted a transparent governance model(*) consistent with FINOS Community governance
+      options:
+        - label: Project discussions, minutes, deliberations, project plans are open and public
+        - label: Issue tracking plans for new features are organized into issues within a public issue tracking system
+        - label: Work for new contributors is tagged as "Good First Issues"
+
+  - type: textarea
+    id: transparency_evidence
+    attributes:
+      label: Transparency - Evidence
+      description: Provide links to discussions, minutes, project plans, issue tracking, "Good First Issues", etc.
+      placeholder: Provide links demonstrating transparent governance...
+      render: markdown
+
+  - type: markdown
+    attributes:
+      value: |
+        _(*) transparent governance model is when a project's discussions, minutes, deliberations, project plans, issue tracking plans for new features, and other artefacts are open, public, and easily accessible in the FINOS Project Infrastructure or FINOS sanctioned external system._
