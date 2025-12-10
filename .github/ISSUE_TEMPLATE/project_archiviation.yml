@@ -7,15 +7,12 @@ assignees:
   - maoo
   - TheJuanAndOnly99
 body:
-  - type: markdown
+ - type: markdown
     attributes:
       value: |
         *Describe the reason for proposing the archival*
 
-        # What's next?
-        Upon submission of this proposal, the FINOS team will follow the checklist reported below.
-
-  - type: textarea
+ - type: textarea
     id: archival_reason
     attributes:
       label: Reason for Archival
@@ -37,6 +34,11 @@ body:
     validations:
       required: true
 
+ - type: markdown
+    attributes:
+      value: |
+        # What's next?
+        Upon submission of this proposal, the FINOS team will follow the checklist reported below.
   - type: markdown
     attributes:
       value: |
