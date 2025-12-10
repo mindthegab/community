@@ -7,10 +7,7 @@ assignees:
   - maoo
   - TheJuanAndOnly99
 body:
-  - type: markdown
-    attributes:
-      value: *Describe the reason for proposing the archival*
-      
+  - type: textarea
     id: archival_reason
     attributes:
       label: Reason for Archival
@@ -32,11 +29,12 @@ body:
     validations:
       required: true
 
- - type: markdown
+  - type: markdown
     attributes:
       value: |
         # What's next?
         Upon submission of this proposal, the FINOS team will follow the checklist reported below.
+
   - type: markdown
     attributes:
       value: |
@@ -59,12 +57,11 @@ body:
               - `Category` = `Idle`
 
         ## Archive mailing list (if present)
-        - [ ] add `[ARCHIVED]`prefix to project mailing list name
+        - [ ] add `[ARCHIVED]` prefix to project mailing list name
         - [ ] set up an automated message for any emails sent to that mailing list, to let the community know that the mailing list has been archived + encourage to reach out to help@finos.org
 
         ## Infra tasks
         - [ ] Create a `staging` branch on https://github.com/finos/finos-landscape
         - [ ] Update https://github.com/finos/finos-landscape/blob/master/landscape.yml
-        - [ ] Remove project Leads from the [finos-project-maintainers@finos.org](https://groups.google.com/a/finos.org/g/finos-project-maintainers/members) list (unless they're leading other FINOS projects!)
-        - [ ] Remove project Leads from the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members) (unless they're leading other FINOS projects!)
-
+        - [ ] Remove project Leads from the finos-project-maintainers@finos.org list (unless they're leading other FINOS projects!)
+        - [ ] Remove project Leads from the project-maintainers Team (unless they're leading other FINOS projects!)
