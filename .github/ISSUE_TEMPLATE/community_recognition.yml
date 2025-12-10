@@ -26,7 +26,7 @@ body:
     attributes:
       label: GitHub Profiles
       description: The GitHub profiles of the recognised person or people
-      placeholder: @username1, @username2
+      placeholder: username1, username2, etc.
     validations:
       required: true
 
