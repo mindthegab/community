@@ -7,12 +7,10 @@ assignees:
   - maoo
   - TheJuanAndOnly99
 body:
- - type: markdown
+  - type: markdown
     attributes:
-      value: |
-        *Describe the reason for proposing the archival*
-
- - type: textarea
+      value: *Describe the reason for proposing the archival*
+      
     id: archival_reason
     attributes:
       label: Reason for Archival
