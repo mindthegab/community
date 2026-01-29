@@ -112,7 +112,7 @@ body:
     id: community
     attributes:
       label: Community
-      description: Project has active participation from 2+ independent individuals and/or organizations. Ideally Project Team members who make contributions in connection with their employment are doing so as part of their regular job duties.
+      description: Project has active participation from 3+ independent individuals and/or organizations (1 of which must be a FINOS member). Ideally Project Team members who make contributions in connection with their employment are doing so as part of their regular job duties. Project is actively used by at least five organizations, with at least three from financial services.
       placeholder: List the independent individuals/organizations participating in the project...
       render: markdown
     validations:
