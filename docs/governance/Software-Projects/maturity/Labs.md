@@ -3,7 +3,10 @@ id: labs
 title: FINOS Labs Projects
 ---
 
-## Definitions
+## Badge
+<img src="https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg" width="150" />
+
+## Definition
 Projects in the FINOS Labs stage are in an experimental and exploratory phase. 
 
 Labs projects must comply with a formal checklist defined by the [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee) and enforced by the FINOS staff. After acceptance, they must also adhere to a short list of ongoing maintenance requirements.
@@ -48,7 +51,7 @@ The following must remain true for projects at all times. A Health Review may be
 - Completion of any action items issued to the project following a vote of the TOC
 - LICENSE, NOTICE and CONTRIBUTING files conform to [FINOS compliance requirements](/docs/governance/Software-Projects/contribution-compliance-requirements#license-information)
 - All community meetings are run according to [FINOS meeting procedures](/docs/governance/meeting-procedures)
-- The appropriate FINOS Labs Project Status Badge is displayed at the top of the project README
+- The appropriate [FINOS Labs Badge](https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg) is displayed at the top of the project README
 - All official project websites or related assets are owned and hosted by FINOS
 - Use of an automated build and release pipeline when releases are made
 - Released artifacts must be distributed under a FINOS namespace following language-specific best practices
