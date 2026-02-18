@@ -3,13 +3,29 @@ id: labs
 title: FINOS Labs Projects
 ---
 
-Experimental or concept Projects may be created within the [finos-labs](https://github.com/finos-labs/) organisation, regardless of their size or level of maturity.  As projects become more mature they may be become Incubated within the FINOS organisation by [requesting onboarding](https://community.finos.org/docs/governance/software-projects/contribution/#contribution-of-an-existing-code-base-into-finos-as-a-new-project).
+## Definitions
+Projects in the FINOS Labs stage are in an experimental and exploratory phase. 
 
-Labs projects are in an initial exploratory phase, hosted in a neutral space overseen by FINOS. They must comply with a formal checklist defined by the Technical Oversight Committee (TOC) and enforced by the FINOS team. After acceptance, they must also adhere to a short list of ongoing maintenance requirements.
+Labs projects must comply with a formal checklist defined by the [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee) and enforced by the FINOS staff. After acceptance, they must also adhere to a short list of ongoing maintenance requirements.
+
+To clearly differentiate their early stage maturity, projects in this stage are hosted in the dedicated [FINOS Labs](https://github.com/finos-labs/) Github org, separate from the main [FINOS org](https://github.com/finos).
 
 ## Objectives
+The objective of the Labs labs stage is to provide a low-friction environment to allow the project team to experiment under a neutral governance in the open, and work through their concepts collaboratively within the FINOS umbrella.   
 
-The objectives of the sandbox finos-labs stage is to allow the project team to form in the open, and start to work through their concepts collaboratively within the FINOS umbrella.     
+This stage serves the default entry stage for all new projects contributed to FINOS, allowing for quickly contributing / starting a collaborative project under neutral governance. 
+
+This stage is also used to support FINOS hackathon providing an immediately open source outlet for projects built during these events. 
+
+## How to apply for FINOS Labs
+
+If you are a FINOS Member and would like to contribute a new opens source or open standard project into Labs, please follow the [new Project contribution process](/docs/governance/Software-Projects/contribution#contribution-of-a-new-FINOS-project-or-SIG) to:
+
+1. detail the proposal
+2. evidence your compliance the [FINOS Labs Acceptance Requirements](/docs/governance/Software-Projects/maturity/labs#labs-acceptance-requirements)
+3. commit to fulfill the [FINOS Labs ongoing maintainance requirements](/docs/governance/Software-Projects/maturity/labs#labs-ongoing-maintenance-requirements).
+
+If you believe your project is more mature than a Labs project, at the time of contribution you will have an option to evidence compliance with later stages and contextually request the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) to award [Incubating](/docs/governance/Software-Projects/maturity/incubating) or [Graduated](/docs/governance/Software-Projects/maturity/graduated) stage.
 
 ## Requirements
 
@@ -19,9 +35,9 @@ The following factors must be confirmed before the project can be accepted and o
 
 - Project has a clear use case for the financial services industry
 - Next steps for development are documented in the README or a linked document
-- Project name and logo, if extant, comply with the FINOS trademark requirements; Otherwise a new name / logo is agreed during contribution
-- Project's license must comply with the FINOS IP Policy
-  - This may be brought into compliance during the contribution process before final onboarding
+- Project name and logo, if extant, comply with the [FINOS trademark requirements](/docs/governance/Software-Projects/contribution#trademark); Otherwise a new name / logo is agreed during contribution
+- Project's license must comply with the [FINOS IP Policy](https://community.finos.org/governance-docs/IP-policy.pdf)
+- The above may be brought into compliance during the contribution process before final onboarding
 
 ### Labs Ongoing Maintenance Requirements
 
@@ -30,19 +46,21 @@ The following must remain true for projects at all times. A Health Review may be
 - All _Labs_ acceptance requirements
 - Public FINOS GitHub repository must have development activity since the last Health Review
 - Completion of any action items issued to the project following a vote of the TOC
-- LICENSE, NOTICE and CONTRIBUTING files conform to FINOS requirements
-- All community meetings are run according to FINOS requirements
+- LICENSE, NOTICE and CONTRIBUTING files conform to [FINOS compliance requirements](/docs/governance/Software-Projects/contribution-compliance-requirements#license-information)
+- All community meetings are run according to [FINOS meeting procedures](/docs/governance/meeting-procedures)
 - The appropriate FINOS Labs Project Status Badge is displayed at the top of the project README
 - All official project websites or related assets are owned and hosted by FINOS
 - Use of an automated build and release pipeline when releases are made
 - Released artifacts must be distributed under a FINOS namespace following language-specific best practices
 - Demonstrated adherence to Maturity Level 1 of the [Open Source Project Security Baseline](https://baseline.openssf.org/)
 
-### Migration out of Labs
+### Transition out of Labs
+As projects become more mature they have several options to progress:
 
-1. Submit application for incubation to the TOC
-2. Recommend for other LF foundation
-3. Archive
+1. Transition into FINOS Incubating stage by [requesting incubation](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Incubation.md&title=projectName+Incubation+Request).
+2. Transition into FINOS Graduated stage by [requesting graduation](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Graduation.md&title=projectName+Graduation+Request).
+3. Graduate to another LF foundation (if scope / audience has grown beyond finance)
+5. Archive
 
 
 
