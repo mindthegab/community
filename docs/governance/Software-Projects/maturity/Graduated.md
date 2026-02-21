@@ -10,7 +10,7 @@ title: FINOS Graduated Projects
 Foundation-hosted projects are expected to provide a clear indication to visitors that they are in an incubating stage.  To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
 ```
-[![FINOS - Graduated](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-graduated.svg)](https://community.finos.org/docs/governance/Software-Projects/maturity/incubating)
+[![FINOS - Graduated](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-graduated.svg)](https://community.finos.org/docs/governance/Software-Projects/maturity/graduated)
 ```
 
 See here for a list of [FINOS Graduated Projects](https://landscape.finos.org/?group=undefined&view-mode=grid&project=active). 
