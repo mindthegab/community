@@ -19,6 +19,8 @@ See here for a list of [FINOS Graduated Projects](https://landscape.finos.org/?g
 
 Graduated represent the highest level of maturity for FINOS projects. Projects awarded the Graduated state are in **the project is now mature in terms of quality, community, sustainability**. Projects in this stage have demonstrable widespread adoption in financial services and a healthy / diverse community of contributors.
 
+They follow best practices for collaborative software development, have mature and well-documented build and release processes, are free of high-risk security vulnerabilities, and maintain thorough documentation.
+
 Virtually all Foundation-hosted projects are expected to strive towards, and ultimately attain, Graduated status. 
 
 This indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that represents a solid long term investment.
