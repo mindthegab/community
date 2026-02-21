@@ -3,51 +3,42 @@ id: project-lifecycle
 title: Lifecycle introduction
 ---
 
-FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle, aligning to the [CNCF maturity](https://github.com/cncf/toc/blob/main/process/README.md) model. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes two axis, maturity and status:
+# Introduction
 
-* Maturity
-  * **[Labs](/docs/governance/Software-Projects/maturity/labs)** - experimental or innovative projects that are early in their life
-  * **[Incubating](/docs/governance/Software-Projects/maturity/incubating)** - for new (and newly contributed) projects;
-  * **[Graduated](/docs/governance/Software-Projects/maturity/graduated)** - for mature, active projects with healthy and diverse contributor communities; and
-  * **[Archived](/docs/governance/Software-Projects/maturity/archived)** - for projects that are no longer actively maintained.
+FINOS projects are categorized according to the FINOS Project Lifecycle: each project is required to clearly display their Lifecycle Stage in the form of a badge in their README.md.
 
-These maturity stages and project statuses are described in greater detail below.
+The Project Lifecycle is maintained by the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) and serves as a recognition of governance transparency, community health, in addition to functional (features) and non functional (security, best practices, etc) maturity of the project with respect to its stated goals and roadmap. 
 
-## Maturity
+> **NOTE:** The FINOS Lifecycle was updated in 2026 to reflect evolution of the foundation and now aligns closely with the [CNCF maturity model](https://github.com/cncf/toc/blob/main/process/README.md). 
 
-The project maturity is a recognition of scale of governance and community involvement and not a statement on worthiness or usefulness.  Indeed, a project may have Active project status (active development and usage) but remain in Incubating maturity level due to very fast delivery of the already existing contributors, or a Graduated project with Inactive status due to already having solved the business need and low maintenance requirements.
+# Why is the Project Lifecycle needed?
 
-### Incubating Projects
+  * **For Consumers:** The lifecycle is designed to help users easily determine which projects are appropriate for their use, whether it be experimentation or production use. 
+ * **For Maintainers:** The lifecycle gives FINOS maintainers a roadmap for progressing their projects towards increasing levels of maturity. 
+ * **For FINOS Staff:** The lifecycle gives FINOS staff a way to offer access to different benefits (and therefore incentives) to projects which are more appropriate for their lifecycle stage.
 
-<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-incubating.png" width="150" />
+# FINOS Lifecycle Stages
 
-When a project is first created or contributed, it is automatically placed in the [Incubating stage](/docs/governance/Software-Projects/maturity/incubating).
-An Incubating project is under active early development and typically has not made its first major release (i.e. version 1.0). During incubation, projects typically experiment heavily with technical designs, standardize their build and release processes, develop their collaborative processes, and work to grow their developer community. Incubating projects are usually not focused on support or backward compatibility.
+Projects in FINOS can be in one of the following lifecycle stages: 
 
-To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](/docs/governance/Software-Projects/maturity/incubating) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
+| Badge | Lifecycle Stage Details                                              | What does it signal to consumers?                                                                                                                                                              |
+| ----- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-forming.png" width="150" padding-left="20"  />    | [Forming](/docs/governance/Software-Projects/maturity/forming)       | This stage is for projects can optionally start for a limited time in a **Member-only private repo** to gauge its viability and interest across Members, ahead of being open to the world.     |
+|   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-labs.png" width="150" />    | [Labs](/docs/governance/Software-Projects/maturity/labs)             | This stage is the default entry point for all FINOS projects which **are in an initial exploratory or experimental phase** while still hosted in a neutrally governed space overseen by FINOS. |
+|   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-incubating.png" width="150" />    | [Incubating](/docs/governance/Software-Projects/maturity/incubating) | This stage is for projects with high potential in early growth phase in terms of their functionality, maturity, and community sustainability.                                                  |
+|   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-graduated.png" width="150"/>    | [Graduated](/docs/governance/Software-Projects/maturity/graduated)   | This stage is the highest maturity stage, for active projects with healthy and diverse contributor and adopter communities                                                                     |
+|   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-archived.png" width="150"/>    | [Archived](/docs/governance/Software-Projects/maturity/archived)     | This stage is for projects that, while potentially still highly valuable, are no longer actively maintained.                                                                                   |
 
-### Graduated Projects
+Please review individual lifecycle stage pages for detailed information about what each stage represents for consumers, what are the criteria and ongoing requirements for projects to be in a lifecycle stage and instructions for maintainers how to apply for each stage.
 
-<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-graduated.png" width="150"/>
+# FINOS Lifecycle Governance
 
-**Graduated** projects are mature open source projects with diverse and active developer communities. They follow best practices for collaborative software development, have mature and well-documented build and release processes, are free of high-risk security vulnerabilities, and maintain thorough documentation. To become Graduated, a project have made or be nearing its first major release and must have two or more independent contributors from different organizations.
+Per [TOC responsiblities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md#responsibilities), the [TOC](https://github.com/finos/technical-oversight-committee/) is responsible for:
 
-To graduate from the Incubating stage, a project must meet the requirements of the [Graduation Lifecycle Checklist](/docs/governance/Software-Projects/maturity/graduated) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
+- Maintaining and evolving all lifecycle stages definitions
+- Approve lifecycle transitions (or new contributions) to the Incubating, Graduated and Archived stages
+- resolve any potential dispute that may occur between project maintainers and who is proposing an archival transition
 
-### Archived Projects
+The FINOS Staff is responsible for:
 
-<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-archived.png" width="150"/>
-
-Projects are [Archived](/docs/governance/Software-Projects/maturity/archived) when they are no longer actively developed (with a project status of Unsupported or Moved), for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updated.
-
-Projects may be moved to the Archived state from either the Incubating or Graduated states, either upon the request of the project maintainers, or upon a determination by FINOS on the basis of the project's status.
-
-### FINOS Labs (Optional)
-
-<img src="https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg" width="150" />
-
-Optionally, before a project is contributed, the FINOS team might work with the contributors and FINOS Members to gauge viability and evaluate interest ahead of contribution as an Incubating project via the use of the [finos-labs](https://github.com/finos-labs/).  FINOS TOC will decide if the project is appropriate for entry into the Labs (see [Labs maturity](/docs/governance/Software-Projects/maturity/labs) for details).
-
-Projects may be moved to the Archived state from either the Incubating or Graduated maturity level, either upon the request of the project maintainers, or upon a determination by FINOS that the project is inactive.
-
-The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/) provides support to resolve any potential dispute that may occur between project maintainers and who is proposing the transition to archived.
+- Accepting new projects into Labs stage according to the [FINOS Labs](/docs/governance/Software-Projects/maturity/labs) requirements
